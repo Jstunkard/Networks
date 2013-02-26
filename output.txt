@@ -1,0 +1,30 @@
+jdstunk@littlearch /home/jdstunk/Dropbox/Programing/Networks            (master) ✗
+⚡ script
+Script started, file is output
+
+jdstunk@littlearch /home/jdstunk/Dropbox/Programing/Networks            (master) ✗
+⚡ make -f makefile  
+g++ -o hw1 hw1.cpp
+
+jdstunk@littlearch /home/jdstunk/Dropbox/Programing/Networks            (master) ✗
+⚡ ./hw1             
+Please enter a message and press enter to submit, or type QUIT to exit
+QUIT
+Now exiting%                                                                       
+
+jdstunk@littlearch /home/jdstunk/Dropbox/Programing/Networks            (master) ✗
+⚡ ./hw1
+Please enter a message and press enter to submit, or type QUIT to exit
+This is a short test line of text!
+AppL - Tue Feb 26 10:43:47 2013: This is a short test line of text!%               
+
+jdstunk@littlearch /home/jdstunk/Dropbox/Programing/Networks            (master) ✗
+⚡ ./hw1
+Please enter a message and press enter to submit, or type QUIT to exit
+This is a long test message. The message can be more than one line long also. It will continue to add content to the message untill "enter" is pressed. If you want you can write three lines of meaningless text like this.
+AppL - Tue Feb 26 10:44:21 2013: This is a long test message. The message can be more than one line long also. It will continue to add content to the message untill "enter" is pressed. If you want you can write three lines of meaningless text like this.%                                                                              
+
+jdstunk@littlearch /home/jdstunk/Dropbox/Programing/Networks            (master) ✗
+⚡ exit
+Script done, file is output
+
