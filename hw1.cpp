@@ -151,7 +151,7 @@ int main(){
   cout << "Please enter a message and press enter to submit, or type QUIT to exit";
   cout << endl;
   getline (cin, input);
-  if (input=="QUIT") {
+  if (input=="QUIT" || input=="Quit" || input=="quit" || input=="Q" || input=="q") {
     cout << "Now exiting";
     return 0;
   }
