@@ -49,20 +49,23 @@ void AppL_SP_Inp(int header,string data){
   }
   else if (header >=4) {
 //    test(header,data);
-    cout << data;
+    cout << "AppL - Returned Data:>>" << data << "<<";
+    cout << "\n";
     return; 
   }
 //  else{
 //    test(header,data);
 //  }
 
-//  if (header == 0){
+  if (header == 0){
+    cout << "Appl - Input was:>>" << data << "<<";
+    cout << "\n";
+  }
+
   header+=1; // Incraments the header here at the Appl_SP_Inp and at the PhyL_SU_Inp
              //   to ensure the header is the correct path number for the entire time
              //   travelled up and down the layers.
-//  test(header,data);
   TL_SP_Inp(header,data);
-//  }
   return;
 }
 void AppL_SP_Out(int header,string data){
@@ -152,7 +155,7 @@ int main(){
   cout << endl;
   getline (cin, input);
   if (input=="QUIT" || input=="Quit" || input=="quit" || input=="Q" || input=="q") {
-    cout << "Now exiting";
+    cout << "Now exiting\n";
     return 0;
   }
   AppL_SP_Inp(0,input);

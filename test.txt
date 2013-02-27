@@ -1,0 +1,38 @@
+Script started on Tue 26 Feb 2013 11:35:59 AM CST
+bash-3.2$ make -f makefile
+g++ -o hw1 hw1.cpp
+bash-3.2$ ./hw1 
+Please enter a message and press enter to submit, or type QUIT to exit
+QUIT
+Now exiting
+bash-3.2$ ./hw1 
+Please enter a message and press enter to submit, or type QUIT to exit
+quit
+Now exiting
+bash-3.2$ ./hw1 
+Please enter a message and press enter to submit, or type QUIT to exit
+Q
+Now exiting
+bash-3.2$ ./hw1 
+Please enter a message and press enter to submit, or type QUIT to exit
+q
+Now exiting
+bash-3.2$ ./hw1 
+Please enter a message and press enter to submit, or type QUIT to exit
+This is an example short message.
+Appl - Input was:>>This is an example short message.<<
+AppL - Returned Data:>>AppL - Tue Feb 26 11:36:50 2013: This is an example short message.<<
+bash-3.2$ ./hw1 
+Please enter a message and press enter to submit, or type QUIT to exit
+This is an example mulit-line message. It contains a multitude of useless text to take up space.
+Appl - Input was:>>This is an example mulit-line message. It contains a multitude of useless text to take up space.<<
+AppL - Returned Data:>>AppL - Tue Feb 26 11:37:53 2013: This is an example mulit-line message. It contains a multitude of useless text to take up space.<<
+bash-3.2$ ./hw1 
+Please enter a message and press enter to submit, or type QUIT to exit
+This is an example message with random letters throughourt. auifnhaiufnIUAEHFNIANfiuafjnaufhsfnfncjnfthiss fjefifeifhaekf efsaifhasknfkjaef asefiaeifa fHfiuhsfbasenf aufha efa eflaihfiuzdhfna ef alfiusefrbaenf akldjfvhpsdoiufane f adflasdoifhaekjf amnd v mncvzhdufgag abef klduhfapdojfhalkne lkjandkevhua gfaljvhdfiuvas vnaviu uu iu paiu hakjvjk iuha ua iuhpiu huah iufj naf hiau huaifuia iuhhf uai aiuhiu cjkakjw efe e eoadvcoidiern f 
+Appl - Input was:>>This is an example message with random letters throughourt. auifnhaiufnIUAEHFNIANfiuafjnaufhsfnfncjnfthiss fjefifeifhaekf efsaifhasknfkjaef asefiaeifa fHfiuhsfbasenf aufha efa eflaihfiuzdhfna ef alfiusefrbaenf akldjfvhpsdoiufane f adflasdoifhaekjf amnd v mncvzhdufgag abef klduhfapdojfhalkne lkjandkevhua gfaljvhdfiuvas vnaviu uu iu paiu hakjvjk iuha ua iuhpiu huah iufj naf hiau huaifuia iuhhf uai aiuhiu cjkakjw efe e eoadvcoidiern f <<
+AppL - Returned Data:>>AppL - Tue Feb 26 11:39:08 2013: This is an example message with random letters throughourt. auifnhaiufnIUAEHFNIANfiuafjnaufhsfnfncjnfthiss fjefifeifhaekf efsaifhasknfkjaef asefiaeifa fHfiuhsfbasenf aufha efa eflaihfiuzdhfna ef alfiusefrbaenf akldjfvhpsdoiufane f adflasdoifhaekjf amnd v mncvzhdufgag abef klduhfapdojfhalkne lkjandkevhua gfaljvhdfiuvas vnaviu uu iu paiu hakjvjk iuha ua iuhpiu huah iufj naf hiau huaifuia iuhhf uai aiuhiu cjkakjw efe e eoadvcoidiern f <<
+bash-3.2$ exit
+exit
+
+Script done on Tue 26 Feb 2013 11:39:19 AM CST
